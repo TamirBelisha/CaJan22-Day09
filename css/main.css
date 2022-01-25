@@ -1,0 +1,54 @@
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(38, 98, 138), rgb(255, 255, 255),  rgba(114, 168, 219, 0.479));
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(201, 231, 231);
+    padding: 30px;
+    color: white;
+    font-size: 45px;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(145, 228, 228);
+    color: rgb(39, 173, 173);
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+a {
+    color: rgb(0, 58, 58);
+    text-decoration: none;
+}
+
+div {
+    background-color: rgb(201, 231, 231);
+    color: rgb(0, 58, 58);
+    height: 80px;
+    width: 280px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    margin-top: auto;
+    font-size: large;
+    display: inline-block;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+div:hover {
+    background-color: rgb(121, 212, 212);
+    
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
